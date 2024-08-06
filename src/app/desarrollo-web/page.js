@@ -6,7 +6,7 @@ import { FaArrowLeft, FaWhatsapp } from 'react-icons/fa';
 const ProductosPage = () => {
   const handleWhatsAppClick = (tipo) => {
     const mensaje = encodeURIComponent(`Hola, estoy interesado en el servicio de ${tipo}. ¿Podrías proporcionarme más información y precios?`);
-    window.open(`https://wa.me/+56958727525?text=${mensaje}`, '_blank');
+    window.open(`https://wa.me/+56989013937?text=${mensaje}`, '_blank');
   };
 
   const productos = [

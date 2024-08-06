@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { FaDesktop, FaBatteryHalf, FaKeyboard, FaHdd, FaWindows, FaWrench, FaTrashAlt, FaDownload, FaCogs, FaWhatsapp, FaArrowLeft } from 'react-icons/fa';
 
-const whatsappLink = "https://wa.me/+56958727525";
+const whatsappLink = "https://wa.me/+56989013937";
 
 const Servicio = ({ icon, title, description, onClick }) => {
     return (
