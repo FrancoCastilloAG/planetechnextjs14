@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import { FaLaptop, FaMobileAlt, FaInternetExplorer, FaCogs, FaWhatsapp, FaInstagram } from 'react-icons/fa';
@@ -31,12 +32,12 @@ export default function Home() {
         <section className="mt-12">
           <h2 className="text-2xl font-bold mb-4">Redes Sociales</h2>
           <div className="flex justify-center space-x-8">
-            <a href="https://wa.me/+56989013937?text=Hola,%20buenas%20tardes.%20Quisiera%20hacer%20una%20cotización." target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/+56989013937?text=Hola,%20buenas%20tardes.%20Quisiera%20hacer%20una%20cotización." target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-4xl text-green-500" />
-            </a>
-            <a href="https://www.instagram.com/planetech_ls/" target="_blank" rel="noopener noreferrer">
+            </Link>
+            <Link href="https://www.instagram.com/planetech_ls/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-4xl text-purple-500" />
-            </a>
+            </Link>
           </div>
         </section>
         <section className="mt-12">
